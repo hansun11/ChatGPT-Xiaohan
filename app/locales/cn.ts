@@ -67,7 +67,7 @@ const cn = {
     },
 
     Update: {
-      Version: (x: string) => `当前版本：${x}`,
+      Version: (x: string) => `：${x}`,
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
