@@ -8,7 +8,7 @@ import styles from "./home.module.scss";
 
 import SettingsIcon from "../icons/settings.svg";
 import GithubIcon from "../icons/github.svg";
-import xiaohanIcon from "../icons/xiaohan.svg";
+import ChatgptIcon from "../icons/chatgpt.svg";
 import SendWhiteIcon from "../icons/send-white.svg";
 import BrainIcon from "../icons/brain.svg";
 import ExportIcon from "../icons/export.svg";
@@ -632,7 +632,7 @@ export function Home() {
             Build your own AI assistant.
           </div>
           <div className={styles["sidebar-logo"]}>
-            <xiaohanIcon />
+            <ChatgptIcon />
           </div>
         </div>
 
